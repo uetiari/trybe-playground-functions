@@ -1,21 +1,13 @@
 // Desafio 1
 function compareTrue(value1, value2) {
-  if (value1 === true && value2 === true){
+  if (value1 === true && value2 === true) {
     return true;
-  } else {
-    return false;
   }
 }
 
 // Desafio 2
 function calcArea(base, height) {
-  if (base === 10 && height === 50){
-    return area = 250;
-  } else if (base === 5 && height === 2){
-    return area = 5;
-  } else if (base === 51 && height ===1){
-    return 25.5;
-  }
+  return ((base * height) / 2);
 }
 
 // Desafio 3
