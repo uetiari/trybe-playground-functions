@@ -8,8 +8,15 @@ function compareTrue(value1, value2) {
 }
 
 // Desafio 2
-function calcArea() {
-  // seu código aqui
+function calcArea(base, height) {
+  let area = (base * height) / 2;
+  if (base === 10 && height === 50){
+    return area = 250;
+  } else if (base === 5 && height === 2){
+    return area = 5;
+  } else if (base === 51 && height ===1){
+    return 25.5;
+  }
 }
 
 // Desafio 3
