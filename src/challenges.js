@@ -2,13 +2,15 @@
 function compareTrue(value1, value2) {
   if (value1 === true && value2 === true) {
     return true;
+  } else {
+    return false;
   }
-}
+};
 
 // Desafio 2
 function calcArea(base, height) {
   return ((base * height) / 2);
-}
+};
 
 // Desafio 3
 function splitSentence(string) {
@@ -24,13 +26,16 @@ function concatName(array) {
 };
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+function footballPoints(wins, ties) {
+  let points;
+
+  return points
 }
 
 // Desafio 6
 function highestCount() {
   // seu código aqui
+  //usar for in ou for of
 }
 
 // Desafio 7
