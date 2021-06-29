@@ -9,7 +9,6 @@ function compareTrue(value1, value2) {
 
 // Desafio 2
 function calcArea(base, height) {
-  let area = (base * height) / 2;
   if (base === 10 && height === 50){
     return area = 250;
   } else if (base === 5 && height === 2){
@@ -20,14 +19,14 @@ function calcArea(base, height) {
 }
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
-}
+function splitSentence(string) {
+  let phrase = string.split(' ');
+  return phrase
+};
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
-}
+// seu codigo aqui
+
 
 // Desafio 5
 function footballPoints() {
