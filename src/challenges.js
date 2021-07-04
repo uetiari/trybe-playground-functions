@@ -82,6 +82,7 @@ function encode(word) {
       break;
       case 'u': encoder += '5';
       break;
+      default: encoder += index;
     }
   }
   return encoder;
@@ -91,16 +92,17 @@ function decode(number) {
   let decoder = '';
   for (let index of number) {
     switch(index){
-      case '1': encoder += 'a';
+      case '1': decoder += 'a';
       break;
-      case '2': encoder += 'e';
+      case '2': decoder += 'e';
       break;
-      case '3': encoder += 'i';
+      case '3': decoder += 'i';
       break;
-      case '4': encoder += 'o';
+      case '4': decoder += 'o';
       break;
-      case '5': encoder += 'u';
+      case '5': decoder += 'u';
       break;
+      default: decoder += index;
     }
   }
   return decoder;
