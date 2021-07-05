@@ -14,9 +14,11 @@ function calcArea(base, height) {
 
 // Desafio 3
 function splitSentence(string) {
-  let phrase = string.split(' ');
+  let phrase = string.split(' '); 
   return phrase;
 }
+// Utilizei a função split pois já tinha conhecimento dela anteriormente
+// Referência: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split
 
 // Desafio 4
 function concatName(array) {
@@ -32,8 +34,8 @@ function footballPoints(wins, ties) {
 }
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+function highestCount(array) {
+
 }
 
 // Desafio 7
@@ -41,7 +43,8 @@ function catAndMouse(mouse, cat1, cat2) {
   let distMouse = Math.abs(mouse);
   let distCat1 = Math.abs(cat1 - distMouse);
   let distCat2 = Math.abs(cat2 - distMouse);
-
+// Utilizei a função Math.abs que pesquisei no site da Documentação
+// Referência: https://www.w3schools.com/jsref/jsref_abs.asp
   if (distCat2 < distCat1) {
     return 'cat2';
   } else if (distCat1 < distCat2) {
