@@ -37,15 +37,21 @@ function footballPoints(wins, ties) {
 function highestCount(array) {
   let maxNumber = 0; 
   let repeatNumber = 0;
+
   for (let index = 0; index < array.length; index += 1) {
-    maxNumber = array[index];
-    for (let index2 = 0; index < array.length; index2 += 1){
-      if (maxNumber === array[index2]) {
-        repeatNumber += 1;
-      }
+    if (maxNumber < Math.abs(array[index])) {
+      maxNumber = array[index];
+    } 
+  }
+// Utilizei a função Math.abs que pesquisei no site da Documentação
+// Referência: https://www.w3schools.com/jsref/jsref_abs.asp
+
+  for (let index2 = 0; index2 < array.length; index2 += 1){
+    if (maxNumber === array[index2]) {
+      repeatNumber += 1;
     }
   }
-  return repeatNumber
+  return repeatNumber;
 }
 
 // Desafio 7
