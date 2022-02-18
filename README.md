@@ -4,12 +4,10 @@
 
 - [O que foi desenvolvido](#o-que-foi-desenvolvido)
 
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-- [Como desenvolver](#como-desenvolver)
+- [Instruções para rodar o projeto](#instruções-para-rodar-o-projeto)
 
 - [Lista de requisitos](#lista-de-requisitos-pedidos-pela-trybe)
+
     `Requisitos obrigatórios:`
     - [1 - Crie uma função usando o operador &&](#1---crie-uma-função-usando-o-operador-)
     - [2 - Crie uma função que calcule a área de um triângulo](#2---crie-uma-função-que-calcule-a-área-de-um-triângulo)
@@ -35,7 +33,7 @@
 - Desenvolver funções seguindo os requisitos especificados para o correto comportamento de cada uma delas.
 
 
-# Instruções rodar o projeto
+# Instruções para rodar o projeto
   * `git clone git@github.com:uetiari/trybe-playground-functions.git`,
   * `cd trybe-playground-functions.git`,
   * `npm install`.
